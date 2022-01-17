@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "name": "Differences between props and state?",
+        "description": "State: state is internal and control by itself. It is asynchronous. State can be modified.Props: props are external and control by the component. It is read only and cannot be modified."
+    },
+    {
+        "id": "2",
+        "name": "What is JSX? How does it work?",
+        "description": "JSX stands for JavaScript XML. It is a simple syntax that javascript and html work together. Its easy to create a template but not easy template languate. JSX starts with html like opening tag and end closing tag."
+    },
+    {
+        "id": "3",
+        "name": "What is Virtual dom? What are the differences between virtual and real dom?",
+        "description": "Virtual dom is a programming concept where an abstraction of the html dom that selectively renders. Virtual means it’s not real. It’s look real but it is artificial. In real dom developers change anything dom replace all the previous code, that take much time. Other hand virtual dom developers change anything, virtual dom compare the real dom where the changes. Then virtual dom changes the only thing, that take less time. It’s the difference."
+    },
+    {
+        "id": "4",
+        "name": "Tell us about React Component lifecycle? ",
+        "description": "React component has a lifecycle of its own. Lifecycle method are build-in React. It use to operate on components throughout their duration in the Dom. It can be define as a series of methods that in different stages of the components existence."
+    },
+    {
+        "id": "5",
+        "name": "What is the purpose of a custom hook? How will you create a custom hook? Give us an example.",
+        "description": "Custom hook is a JavaScript function that create developers own. When they want to share login between other JavaScript function."
+    },
+    {
+        "id": "6",
+        "name": "How would you optimize a react js application?",
+        "description": "Optimize a react js application in many ways. Using immutable data structure. Use react functional component and avoid inline function definition. Avoid index key for map."
+    },
+    {
+        "id": "7",
+        "name": "What is reactjs? Tell us about advantages and disadvantages of using react js?",
+        "description": "React is a JavaScript library. It is most popular in web development. Its a client-side library. It is used by most popular and large company like Netflix, instagram. Advantages: This library is easy to learn. Its documentation, video are more easier to found. When a developer learn JavaScript, then they easily understand this library. Its SEO friendly and creative page dynamic easier. Reusable components. Disadvantages: its documentation is very poor. Because not to update. ReactJs view part only covers the UI layers and nothing else. JSX is a barriers. Means, html and javascript work together. When a new developer come, they confuse this JSX."
+    },
+    {
+        "id": "8",
+        "name": "What is the purpose of useState? When and why will you use it?",
+        "description": "useState is a hook that allows to have state variables in functional components. Data pass the initial state to the function and returns a variable with the current state value. When to call api and store the data then use useState hook. It store the data and pass other component with props."
+    },
+    {
+        "id": "9",
+        "name": "What are the differences between controlled and uncontrolled components?",
+        "description": "In a controlled component, the value of the input element is controlled by React. It has support field-level validation, enforcing input format, dynamic inputs, several inputs for one piece of data. In an uncontrolled component, the value of the input element is handled by the DOM itself. It has not support field-level validation, enforcing input format, dynamic inputs, several inputs for one piece of data."
+    },
+    {
+        "id": "10",
+        "name": "What are inline conditional expressions?",
+        "description": "If statements or ternary expressions are conditionally render expressions. Apart from these approaches, embed any expressions in JSX by wrapping them in curly braces and then followed by JS logical operator &&"
+    },
+    {
+        "id": "11",
+        "name": "CRUD Operations",
+        "description": "CRUD Operation is most important thing. Its full form create, read, update, delete. It uses in express js, node js and mongodb. Its easy to use. When any data or anything create then use it, and when create new things sometimes its have to update then use it, after all things done sometimes anything use want to delete then use it. After all finish all task then user read the data. Then use it. It can user-interface conventions that allow viewing, searching and modifying information through computer-based forms and reports. It is data-oriented and the standardized use of HTTP action verbs. In HTTP method create use put, read use get, update use put, delete use delete http. Developers use these method to use the CRUD operations."
+    },
+    {
+        "id": "12",
+        "name": "JWT",
+        "description": "JWT stands for JSON Web Token. It is an open standard. It defines a compact and self-contained way for securely transmitting information between parties as a JSON object and can be verified and trusted cause digitally signed. JWTs signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA or ECDSA. JWTs encrypted to provide secrecy between parties, and also focus on signed tokens. Signed tokens can verify integrity of the claims contained within it, while encrypted tokens hide those claims from other parties. When tokens are signed using public/private key pairs, the signature also certifies that only the party holding the private key is the one that signed it. JWT tokens are very useful. It can uses in many ways. Authorization: This is the most important and common thing for JWT. When user is logged in, each subsequent request include the JWT, then it allow the user to access routes, services, and resources which are permitted with that token. Single Sign On is one of the feature that widely uses JWT every developers nowadays, cause it is a small overhead and its ability to be easily used across different domains. Although every developers comfort use this. Information Exchange: JWT are a good way of securely transmitting information between parties. Because JWTs can signed example developers use public/private key pairs it can be sure the senders are who this is. Signature is calculate using the header and the payload and can also verify that the content hasn't been tampered with. JWT is also have structure. The structure is consist of three parts separated by dots which are header, payload, signature Header: header has two parts. One of is the type of the token which provide JWT and another is signing algorithm which provide HMAC SHA256 or RSA. Payload: payload is the second part of the JWT and it contains claims. The claims are entity and additional data. The claims are registered, public and private claims. Registered: registered is one of the thing which under of claims. It is not mandatory but recommended. It provide a set of useful and interoperable claims. Public: It can be defined at will by those using JWTs. But to avoid collisions should be defined be defined as a URI that contains a collision resistant namespace.Private: this is the custom claims. It share information between parties that agree on using them and are neither public claims. Signature: the signature part have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that. The output is three Base64-URL strings separated by dots that can be easily passed in HTML and HTTP environments, while being more compact when compared to XML-based standards such as SAML. In authentication when user successfully log in using their site, JWT will be returned. Since tokens are credentials, great care must be taken to prevent security issues. In general, it should not keep tokens longer than required. The user when want to access a secure route then it agent should send the JWT and the authorization header using the Bearer schema. If the token send the authorization header then cross origin sharing wont be an issue. As JSON is less verbose than XML, when it is encoded its size is also smaller, making JWT more compact than SAML. This makes JWT a good choice to be passed in HTML and HTTP environments."
+    },
+    {
+        "id": "13",
+        "name": "NodeJs",
+        "description": "NodeJs is single-threaded, high scalable, asynchronous event-driven JavaScript runtime. It is use for backend. NodeJs is non-blocking."
+    }
+]

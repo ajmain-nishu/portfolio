@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Dance School",
+        "img": "https://i.ibb.co/VT1sfF6/dance-school-1.png",
+        "img_1": "https://i.ibb.co/QX7Gp2R/dance-school-2.png",
+        "img_2": "https://i.ibb.co/hDSfqh5/dance-school-3.png",
+        "description": "This is a dance school website. It can be used to know the many kind of dance names, pictures, duration, price etc. of dance school. Knowing this information will allow you to learn a lot about dance. You will get encouragement in this yourself. To do something by yourself. Dance is very good habit becasue its makes body fit.",
+        "purpose": "This is a dance school website. It can be used to know the many kind of dance names, pictures, duration, price etc. of dance school. Knowing this information will allow you to learn a lot about dance. You will get encouragement in this yourself. To do something by yourself. Dance is very good habit becasue its makes body fit.",
+        "tech": "React Js, JSX, React Router,  Context API, Rest API, HTML5, CSS3, Bootstrap, Netlify."
+    },
+    {
+        "id": "2",
+        "name": "Eye Glasses",
+        "img": "https://i.ibb.co/6PD2f0w/eye-glasses-1.png",
+        "img_1": "https://i.ibb.co/QDtbz8B/eye-glasses-2.png",
+        "img_2": "https://i.ibb.co/NnfSLn2/eye-glasses-3.png",
+        "description": "This is Eye Glass Store related MERN stack responsive project where CRUD operation has been used. Spectacles of various reputed companies are available here. Which you will not find anywhere else so much collection.Glasses are very important today. Glasses are essential for those who have eye problems. Again, many people wear glasses for fashion.We have all kinds of glasses available here. So you can take it from us.",
+        "purpose": "There are many types of features and functionality. You can view our products without login. But if you want to order something, you have to login. We are giving 2 options for login. If you want you can do it with email or you can do it with Google. To order something you just need to give the department, city, phone number. And we will take the name from your email. So there is no benefit in changing the name later. Our products are much better than any other. We hope that once you buy our product you will not get another product from another place. Our website is highly secure. We will protect all your personal information with confidentiality. Users and Admin can sign up and log in to this website using email or google. Admin can go to the dashboard to create a new admin, as well as cancel a user's order and many more.",
+        "tech": "React Js, JSX, React Router, Node Js, Express Js, MongoDB, Context API, Rest API, Firebase, HTML5, CSS3, Bootstrap, Heroku."
+    },
+    {
+        "id": "3",
+        "name": "Skin Care",
+        "img": "https://i.ibb.co/6rzpd3G/skin-care-1.png",
+        "img_1": "https://i.ibb.co/Nm3HpJB/skin-care-2.png",
+        "img_2": "https://i.ibb.co/1QtJ7tN/skin-care-3.png",
+        "description": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist medical doctor who manages diseases related to skin, hair, nails, and some cosmetic problems.",
+        "purpose": "This is a health-related responsive website. Users can sign up and log in to this website using email or google. To order a service, a user must be logged in. It can be used to know the many kind of skin names, pictures, description etc. of skin care medics. Knowing this information will allow you to learn a lot about skin. You will get encouragement in this yourself. To do something by yourself. skin care is very good habit becasue its makes skin beautiful.Beautiful as well as get rid of many diseases of the skin. Many people die of screen cancer every year. Skin cancer is a very bad disease. It is very difficult to get rid of this disease. So the skin should be taken care of regularly.",
+        "tech": "React Js, JSX, React Router, Node Js, Express Js, MongoDB, Context API, Rest API, Firebase, HTML5, CSS3, Bootstrap, Heroku."
+    }
+]
